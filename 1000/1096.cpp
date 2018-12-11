@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1096
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,13 +8,8 @@
 ****************************************************************/
  
 #include <stdio.h>
-#include <stdlib.h>
-int main(){
-    int n;scanf("%d",&n);
-    int idx=0;int i,j;
+int main(){int n;scanf("%d",&n);int idx=0;int i,j;
 for(i=n*2-1;i>0;i-=2){
-    for(j=0;j<idx;j++) printf(" ");
-    for(j=0;j<i;j++) printf("*");
-    printf("\n");
-    idx++;}idx--;
-}
+for(j=0;j<idx;j++) printf(" ");
+for(j=0;j<i;j++) printf("*");
+printf("\n");idx++;}idx--;}

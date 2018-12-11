@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1161
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,7 +8,6 @@
 ****************************************************************/
  
 #include <stdio.h>
-#include <stdlib.h>
 int func(int *a, int *b){
     if ((*a)>(*b)){
         (*a) = (*a)/2;(*b)*=2;

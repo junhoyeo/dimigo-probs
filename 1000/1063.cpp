@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1063
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,11 +8,4 @@
 ****************************************************************/
  
 #include <stdio.h>
-int main(){
-int i=1;
-while(i<15){
-    printf("%d ", i);
-    i++;
-}
-printf("%d",i);
-}
+int main(){int i=1;while(i<15){printf("%d ",i);i++;}printf("%d",i);}

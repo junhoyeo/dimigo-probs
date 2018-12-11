@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1135
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,7 +8,6 @@
 ****************************************************************/
  
 #include <stdio.h>
-#include <stdlib.h>
 int main(){int a[26]={0,};
 while(1){char tmp;scanf(" %c",&tmp);
 if(tmp<65 || tmp>65+25){

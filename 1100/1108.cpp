@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1108
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,16 +8,10 @@
 ****************************************************************/
  
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-int main(){
-int n;scanf("%d",&n);
-int idx=1;
+int main(){int n;scanf("%d",&n);int idx=1;
 for(int i=0;i<n;i++){
-    for(int i=0;i<n;i++){
-        printf("%d ",idx);
-        idx+=2; if(idx==11)idx-=10;
-    }
-    printf("\n");
+for(int i=0;i<n;i++){
+    printf("%d ",idx);
+    idx+=2; if(idx==11)idx-=10;
 }
-}
+printf("\n");}}

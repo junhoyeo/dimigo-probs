@@ -8,8 +8,6 @@
 ****************************************************************/
  
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
 int gugu(int n, int l){
     if (n==1) return l;
     l++;

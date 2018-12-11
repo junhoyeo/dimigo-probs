@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1140
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,7 +8,6 @@
 ****************************************************************/
  
 #include <stdio.h>
-#include <stdlib.h>
 int main(){
     double s[5];
     for(int i=0;i<5;i++){

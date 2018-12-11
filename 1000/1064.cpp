@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1064
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,12 +8,4 @@
 ****************************************************************/
  
 #include <stdio.h>
-int main(){
-int i=1;
-int sum = 0;
-int n;scanf("%d",&n);
-while(i<=n){
-    sum+=i; i++;
-}
-printf("%d",sum);
-}
+int main(){int i=1;int sum=0;int n;scanf("%d",&n);while(i<=n){sum+=i;i++;}printf("%d",sum);}

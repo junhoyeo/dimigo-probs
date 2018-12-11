@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1071
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,16 +8,6 @@
 ****************************************************************/
  
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-int main(){
-    int sum=0;int idx=0;
-    while(1){
-        int tmp;scanf("%d", &tmp);
-        if(tmp>100 || tmp<0){
-            printf("합계 : %d점\n평균 : %.1lf점",sum,(double)sum/idx);
-            return 0;
-        }
-        sum += tmp;idx++;
-    }
-}
+int main(){int sum=0;int idx=0;while(1){int tmp;scanf("%d",&tmp);
+if(tmp>100||tmp<0){printf("합계 : %d점\n평균 : %.1lf점",sum,(double)sum/idx);
+return 0;}sum+=tmp;idx++;}}

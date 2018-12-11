@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1173
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,13 +8,9 @@
 ****************************************************************/
  
 #include <stdio.h>
-void gugu(){
+void g(){
     for(int i=1;i<=3;i++){
-        for(int j=1;j<=3;j++){
-            printf("%d + %d = %d\n", i,j,i+j);
-        }
+        for(int j=1;j<=3;j++) printf("%d + %d = %d\n", i,j,i+j);
     }
 }
-int main(){
-    gugu();
-}
+int main(){g();}

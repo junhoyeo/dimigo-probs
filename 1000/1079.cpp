@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1079
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,7 +8,6 @@
 ****************************************************************/
  
 #include <stdio.h>
-#include <stdlib.h>
 int main(){
     int n;scanf("%d",&n);
     int sum = 0;

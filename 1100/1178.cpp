@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1178
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -9,10 +9,7 @@
  
 #include <stdio.h>
 #include <stdlib.h>
-// #include <math.h>
-#define AM(X) (X)*(X)
-#define BM(X) (X)*(X)*(X)
-int gugu(){
+int g(){
     int sum=0;
     for(int i=0;i<5;i++){
         int t;scanf("%d",&t);
@@ -21,5 +18,5 @@ int gugu(){
     return sum;
 }
 int main(){
-    printf("%d",gugu());
+    printf("%d",g());
 }

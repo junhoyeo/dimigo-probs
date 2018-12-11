@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1054
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,8 +8,4 @@
 ****************************************************************/
  
 #include <stdio.h>
-int main(){
-int a,b,c;scanf("%d %d %d",&a,&b,&c);
-int min=(a<b)?a:b;
-min=(min<c)?min:c;
-printf("%d",min);}
+int main(){int a,b,c;scanf("%d %d %d",&a,&b,&c);int m=(a<b)?a:b;m=(m<c)?m:c;printf("%d",m);}

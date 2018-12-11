@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1077
-    User: hack1520
+    User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,9 +8,4 @@
 ****************************************************************/
  
 #include <stdio.h>
-int main(){
-    int a;scanf("%d",&a);
-    int s=0;
-    for(int i=a;i<=100;i++)s+=i;
-    printf("%d",s);
-}
+int main(){int a;scanf("%d",&a);int s=0;for(int i=a;i<=100;i++)s+=i;printf("%d",s);}
