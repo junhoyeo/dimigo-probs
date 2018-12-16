@@ -1,11 +1,14 @@
 /**************************************************************
-    Problem: 1005
+    Problem: 1263
     User: 18HD1520
     Language: C++
     Result: Accepted
     Time:0 ms
-    Memory:1084 kb
+    Memory:1088 kb
 ****************************************************************/
  
 #include <stdio.h>
-int main(){printf("나의 키는\n%d\n나의 몸무게\n%lf",170,68.6);}
+int fac(int n){int sum=1;
+for(int i=1;i<=n;i++)sum*=i;
+return sum;}
+int main(){int n;scanf("%d",&n);printf("%d",fac(n));}

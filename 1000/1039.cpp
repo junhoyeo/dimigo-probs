@@ -1,6 +1,6 @@
 /**************************************************************
     Problem: 1039
-    User: hack1520
+    User: haca520
     Language: C++
     Result: Accepted
     Time:0 ms
@@ -8,11 +8,4 @@
 ****************************************************************/
  
 #include <stdio.h>
-int main(){
-printf("민수의 키와 몸무게 입력 ");
-int m1,m2;scanf("%d %d",&m1,&m2);
-printf("기영이의 키와 몸무게 입력 ");
-int k1,k2;scanf("%d %d",&k1,&k2);
-if (m1 > k1 && m2 > k2) printf("1");
-else printf("0");
-}
+int main(){printf("민수의 키와 몸무게 입력 ");int q,m;scanf("%d %d",&q,&m);printf("기영이의 키와 몸무게 입력 ");int a,b;scanf("%d %d",&a,&b);if(q>a&&m>b)printf("1");else printf("0");}
