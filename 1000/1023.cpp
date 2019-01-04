@@ -8,4 +8,4 @@
 ****************************************************************/
  
 #include <stdio.h>
-int main(){double a=80.5;double b=22.34;printf("%10.2lf%10.2lf%10.2lf",a,b,a+b);}
+int main(){double a=80.5;double b=22.34;printf("%1lf%10.2lf%10.2lf",a,b,a+b);}
