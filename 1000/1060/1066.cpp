@@ -8,6 +8,16 @@
 ****************************************************************/
  
 #include <stdio.h>
-int main(){int s=0;int n=0;
-while(1){int a;scanf("%d",&a);s+=a;n++;
-if(a>=100){printf("%d\n%.1lf",s,s/(double)n);break;}}}
+int main(){
+    int s=0; // sum (총합)
+    int n=0; // number (입력되는 문자의 수)
+    while(1){
+        int a;scanf("%d",&a);
+        s+=a;
+        n++;
+        if(a>=100){
+            printf("%d\n%.1lf",s,s/(double)n);
+            break;
+        }
+    }
+}
