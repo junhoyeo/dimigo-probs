@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-	int a, b;
-	scanf("%d%d", &a, &b);
-	printf("%d\n%d\n%d\n%0.2lf", a+b, a-b, a*b, (float)a/b);
+	int y,m,d;
+	scanf("%d.%d.%d",&y,&m,&d);
+	printf("%04d년 %02d월 %02d일", y,m,d);
 }

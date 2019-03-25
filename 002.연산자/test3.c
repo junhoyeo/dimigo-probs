@@ -1,6 +1,5 @@
 #include <stdio.h>
 int main() {
-	char num[7];
-	scanf("%s", num);
-	printf("%c", num[4]);
+	int n; scanf("%d", &n);
+	printf("%.3lfF", (9/5.0)*n+32);
 }
