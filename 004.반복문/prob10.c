@@ -1,6 +1,12 @@
 #include <stdio.h>
 int main() {
-	int a,b,i;scanf("%d%d",&a,&b);
-	for(i=a;;i++) if(i%a==0 && i%b==0) break;
-	printf("%d",i);
+	int n;scanf("%d", &n);
+	for(int i=2;i<n;i++){
+		if (n%i==0) break;
+		else if (i==n-1) {
+			printf("소수이다.");
+			return 0;
+		}
+	}
+	printf("소수가 아니다.");
 }

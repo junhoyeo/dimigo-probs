@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main() {
-	int a,b;scanf("%d%d",&a,&b);
-	int q=a/b; int r=a%b;
-	while(r!=0){
-		a=b;b=r;q=a/b;r=a%b;
+	int n;scanf("%d", &n);
+	for(int i=1;i<=n;i++){
+		if(n%i==0) printf("%d ",i);
 	}
-	printf("%d",b);
 }

@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main() {
-	int n,i,j=1;scanf("%d",&n);
-	for(i=1;;i+=4){ if(j==n) break; j++; }
-	printf("%d",i);
+	int n;scanf("%d",&n);
+	double m = 1000000;
+	for(int i=0;i<n;i++)
+		m = m*(105/100.0);
+	printf("%.0f원\n", m);
 }
