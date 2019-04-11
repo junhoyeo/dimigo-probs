@@ -53,7 +53,7 @@ bool verify_input(int *input, int input_length) {
         int count = 0;
         for (int j = 0; j < input_length; j++) {
             if (input[j] == i) {
-                if (count > 1) return false;
+                if (count > 0) return false;
                 count++;
             }
         }
