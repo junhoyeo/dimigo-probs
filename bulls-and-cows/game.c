@@ -44,8 +44,62 @@ void random_array(int *array, int array_length) {
   // print_int_array(array, 4);
 }
 
+bool verify_input(int *input, int input_length) {
+  // first number should not be 0
+  if (input[0] == 0) return false;
+
+  // there must be no duplicates
+  for (int i = 0; i < 9; i++) {
+    int count = 0;
+    for (int j = 0; j < input_length; j++) {
+      if (input[j] == i) {
+        if (count > 1) return false;
+        count++;
+      }
+    }
+  }
+
+  return true;
+}
+
 int main() {
   int numbers[4] = {10, 10, 10, 10};
   random_array(numbers, 4);
   print_int_array(numbers, 4);
+  printf("==========\n");
+
+  int tries = 0;
+  while (1) {
+    int strikes = 0;
+    int balls = 0;
+    int input[4];
+
+    // get input from user
+    for (int i = 0; i < 4; i++)
+      scanf("%d", &input[i]);
+
+    if (!verify_input(input, 4)) {
+      printf("input not in valid format\n");
+      printf("==========\n");
+      continue;
+    }
+    
+    // calculate result
+    for (int i = 0; i < 4; i++) {
+      if (numbers[i] == input[i]) 
+        strikes++;
+      else if (in_array(numbers, 4, input[i]))
+        balls++;
+    }
+    tries++;
+
+    if (strikes || balls) 
+      printf("%d Strikes %d Balls\n", strikes, balls);
+    else printf("out\n");
+    if (strikes == 4) {
+      printf("Success in %d tries!\n", tries);
+      return 0;
+    }
+    printf("==========\n");
+  }
 }
