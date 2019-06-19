@@ -15,6 +15,7 @@ bool is_prime(int n) {
 }
 
 bool is_successive_back(int n) {
+  n /= 10; // 어차피 n 자체는 front에서 한번 더 보니까 여기서는 체크 x (실행시간 단축)
   /* 뒤에서부터 자릿수를 하나씩 없애서 successive prime인지를 구함 */
   int i = 1;
   while (n != 0) {
