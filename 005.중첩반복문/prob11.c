@@ -1,4 +1,4 @@
-int main(){ // 주노최고
+int main(){
     int n;scanf("%d",&n);int idx=0;int i,j;
     for(i=n;i>0;i-=2){
         for(j=0;j<idx;j++) printf(" ");

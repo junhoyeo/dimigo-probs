@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int main() { // 주노최고
 	int a,b;scanf("%d%d",&a,&b);
 	for(int i=0;i<b;i++){
 		for(int j=0;j<i;j++)printf(" ");
